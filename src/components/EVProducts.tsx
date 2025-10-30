@@ -20,7 +20,7 @@ const serviceTiers: ServiceTier[] = [
       'Luxury seating and finishes',
       'Complimentary bottled water'
     ],
-    imageSrc: '/2024-mercedes-benz-e-300-aus-81.jpg'
+    imageSrc: '/experience/VWKombi1.webp'
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const serviceTiers: ServiceTier[] = [
       'Local guidance and recommendations',
       'Premium refreshments onboard'
     ],
-    imageSrc: '/bmw-7-series-overview-g70.webp'
+    imageSrc: '/experience/VWKombi2.jpg'
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const serviceTiers: ServiceTier[] = [
       'Bodyguard-style presence',
       'In-vehicle entertainment + luxury amenities'
     ],
-    imageSrc: '/rangeroverpsort.jpg'
+    imageSrc: '/experience/VWKombi3.jpg'
   }
 ]
 

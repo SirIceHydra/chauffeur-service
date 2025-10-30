@@ -7,7 +7,7 @@ const EVStoryCard: React.FC = () => {
       <div className="ev-story-video">
         <div className="ev-story-video-container">
           <img 
-            src="/87ab842bad111d3aefca28451e56e6dcf78f86e6.png" 
+            src="/Luxury Chaffeur Service.jpg" 
             alt="Luxury Car Fleet Video"
             className="ev-story-video-img"
           />

@@ -56,7 +56,7 @@
 .ev-products-grid {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: flex-start; /* keep image rows aligned at top despite different text heights */
   justify-content: center;
   width: 100%;
   max-width: 1150px;

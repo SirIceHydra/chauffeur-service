@@ -4,8 +4,8 @@
   flex-direction: column;
   gap: 16px;
   align-items: flex-start;
-  flex: 1;
-  min-width: 0;
+  flex: 0 0 370px; /* fixed card width to unify image container sizes */
+  width: 370px;
 }
 
 .ev-product-image-container {
@@ -17,8 +17,9 @@
 }
 
 .ev-product-image {
-  aspect-ratio: 800 / 964;
+  /* fixed size to guarantee identical dimensions across cards */
   width: 100%;
+  height: 208px; /* 370px width at 16:9 ≈ 208px */
   position: relative;
   flex-shrink: 0;
 }
@@ -28,6 +29,7 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
+  background-color: #f5f7fa;
 }
 
 .ev-product-content {
@@ -35,7 +37,7 @@
   flex-direction: column;
   gap: 16px;
   align-items: flex-start;
-  width: 370px;
+  width: 100%;
 }
 
 .ev-product-title {
